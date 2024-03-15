@@ -9,6 +9,7 @@ Welcome to my portfolio. This is the first website I've built without using any 
 
 Please feel free to check in on this website from time to time as it will be frequently updated and allow you to view my latest projects. This website will also have my up to date contact information at all times, so if you'd like to get in touch for collaboration, work, or to ask any questions please feel free. 
 
-##Deployed Application
+Deployed Application -
 
 Last but not least here is the link to the fully deployed application
+https://rinovi.github.io/Caleb-Warford-s-Portfolio/
