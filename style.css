@@ -1,0 +1,211 @@
+:root {
+    --primary-color: white;
+    --secondary-color: #1B1B1B;
+    --accent-color: #044c8b;
+    --background-image: url(https://media.istockphoto.com/id/995719694/photo/abstract-blue-cyan-background.webp?b=1&s=170667a&w=0&k=20&c=HVxqSvc_bG0mITEYoSUOWmBNG_tCOANs_dfXptd8mAA=)
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+}
+.body {
+    background-image:var(--background-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fancy-border {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+}
+
+.name {
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+}
+
+.links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+main {
+    max-width: 88%;
+    margin: 0 auto
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 200px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 15px;
+    display: inline;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+section>h2 {
+    flex-basis: 18%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 3px solid black;
+}
+
+section>div {
+    flex-basis: 77%;
+    padding-left: 30px;
+}
+div ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.project {
+    display: flex;
+    align-items: flex-end;
+    height: 180px;
+    margin: 0.5em;
+    font-size: 0.9rem;
+    flex-basis: calc(50% - 1em);
+    border: 3px solid black;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.project:first-child {
+    flex-basis: 100%;
+    min-height: 320px;
+}
+
+.project div {
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+}
+
+.project-1 {
+    background-image: url(./Horiseon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project-2 {
+    background-image: url(./Prework.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.project-3 {
+    background-image: url(https://wallpapers.com/images/featured/coding-background-9izlympnd0ovmpli.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-4 {
+    background-image: url(https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?height=640&width=640&fit=bounds);
+}
+
+.project-5 {
+    background-image: url(https://cms-assets.themuse.com/media/lead/01212022-1047259374-coding-classes_scanrail.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.contact li footer {
+    padding: 20px;
+    text-align: bottom;
+    display: flex;
+    display: inline-block;
+    justify-content: space-evenly;
+    border-radius: 1px;
+    border-color: var(--accent-color);
+}
